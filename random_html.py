@@ -6,4 +6,4 @@ app = Flask(__name__)
 def index():
   return 'random : <strong>' + str(random.random()) + '</strong>'
 
-app.run(debug = True)
+app.run(debug = True)  
